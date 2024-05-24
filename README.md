@@ -25,7 +25,7 @@ To use HealthMateAI:
 
 ## Support and Contributions
 
-If you encounter any issues or have any questions about HealthMateAI, feel free to reach out to the project owner at [your@email.com](rajesh.kofficialmail@gmail.com). 📧
+If you encounter any issues or have any questions about HealthMateAI, feel free to reach out to the project owner at rajesh.kofficialmail@gmail.com. 📧
 
 Contributions to the project are welcome! If you have ideas for improving HealthMateAI or want to report a bug, please open an issue or submit a pull request. 🤝
 
