@@ -1,4 +1,4 @@
-# HealthMateAI
+# HealthMate-AI
 
 HealthMateAI is a healthcare chatbot designed to provide personalized medical assistance and guidance to users. It utilizes LangChain and Hugging Face models for natural language processing and understanding.💡👩‍⚕️
 
