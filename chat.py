@@ -10,8 +10,8 @@ load_dotenv()
 
 
 # setting the Api
-model_Api = os.getenv("MY_API_KEY")
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = model_Api
+model_Api = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+# os.environ["HUGGINGFACEHUB_API_TOKEN"] = model_Api
 
 repo_id =  "mistralai/Mistral-7B-Instruct-v0.3"
 
