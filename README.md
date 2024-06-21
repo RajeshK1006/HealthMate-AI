@@ -12,7 +12,7 @@ HealthMateAI is a healthcare chatbot designed to provide personalized medical as
 ## Usage
 
 To use HealthMateAI:
-1. Click on the following link to access the chatbot: [HealthMateAI Chatbot](https://huggingface.co/spaces/rajeshk10/HealthMate-AI)
+1. Click on the following link to access the chatbot: [HealthMateAI Chatbot](https://huggingface.co/spaces/Cyberwizard10/HealthMate-AI-2.0)
 2. Start typing your health-related question in the chat window.
 3. HealthMateAI will provide you with guidance and support based on your query.
 
