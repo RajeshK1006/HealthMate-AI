@@ -117,21 +117,306 @@ health_keywords = ["health", "medicine", "doctor", "symptoms", "treatment", "pre
                        "achromatopsia", "cone dystrophy", "cone-rod dystrophy", "cone-rod retinal dystrophy",
                        "rod-cone dystrophy", "rod-cone retinal dystrophy", "night blindness",
                        "nyctalopia", "tunnel vision", "peripheral vision loss", "color vision deficiency",
-                       "color blindness", "red-green color blindness", "blue-yellow color", "headache", "cancer" ]
+                       "color blindness", "red-green color blindness", "blue-yellow color", "headache", "cancer" 
+
+
+    # Skeletal System
+    "Skull", "Mandible", "Maxilla", "Vertebrae", "Ribs", "Sternum", "Clavicle", "Scapula",
+    "Humerus", "Radius", "Ulna", "Carpals", "Metacarpals", "Phalanges", "Femur", "Patella",
+    "Tibia", "Fibula", "Tarsals", "Metatarsals",
+    
+    # Muscular System
+    "Skeletal muscle", "Cardiac muscle", "Smooth muscle", "Biceps", "Triceps", "Quadriceps",
+    "Hamstrings", "Gluteus muscles", "Abdominals", "Pectorals", "Deltoids", "Trapezius", "Latissimus dorsi",
+    
+    # Nervous System
+    "Neuron", "Brain", "Spinal cord", "Cerebrum", "Cerebellum", "Brainstem", "Frontal lobe",
+    "Temporal lobe", "Parietal lobe", "Occipital lobe", "Cranial nerves", "Peripheral nerves",
+    "Autonomic nervous system", "Sympathetic nervous system", "Parasympathetic nervous system",
+    
+    # Cardiovascular System
+    "Heart", "Aorta", "Arteries", "Veins", "Capillaries", "Pulmonary circulation", "Systemic circulation",
+    "Coronary arteries", "Cardiac cycle", "Blood pressure", "Pulse", "Blood vessels",
+    
+    # Respiratory System
+    "Nasal cavity", "Pharynx", "Larynx", "Trachea", "Bronchi", "Bronchioles", "Lungs", "Alveoli",
+    "Diaphragm", "Respiratory rate", "Oxygenation", "Carbon dioxide exchange",
+    
+    # Digestive System
+    "Mouth", "Salivary glands", "Pharynx", "Esophagus", "Stomach", "Small intestine", "Large intestine",
+    "Liver", "Gallbladder", "Pancreas", "Digestive enzymes", "Peristalsis", "Absorption", "Elimination",
+    
+    # Urinary System
+    "Kidneys", "Ureters", "Bladder", "Urethra", "Nephron", "Renal cortex", "Renal medulla", "Renal pelvis",
+    "Filtration", "Reabsorption", "Secretion", "Urine formation",
+    
+    # Reproductive System
+    "Testes", "Epididymis", "Vas deferens", "Seminal vesicles", "Prostate gland", "Penis", "Ovaries",
+    "Fallopian tubes", "Uterus", "Vagina", "Vulva", "Mammary glands", "Menstrual cycle", "Fertilization",
+    "Pregnancy",
+    
+    # Endocrine System
+    "Pituitary gland", "Pineal gland", "Thyroid gland", "Parathyroid glands", "Adrenal glands",
+    "Pancreas (endocrine function)", "Hormones (e.g., insulin, cortisol, adrenaline)", "Feedback mechanisms",
+    "Endocrine disorders (e.g., diabetes mellitus, thyroid disorders)",
+    
+    # Lymphatic System
+    "Lymph nodes", "Lymphatic vessels", "Tonsils", "Thymus gland", "Spleen", "Bone marrow",
+    "Lymphatic fluid", "Immune response", "Lymphocytes", "Antigen", "Antibody", "Immune system function",
+    
+    # Integumentary System
+    "Skin", "Epidermis", "Dermis", "Hypodermis", "Hair", "Nails", "Sebaceous glands", "Sweat glands",
+    "Thermoregulation", "Protection", "Sensation",
+    
+    # Other Medical Disciplines and Terms
+    "Pathology", "Pharmacology", "Radiology", "Epidemiology", "Oncology", "Hematology", "Dermatology",
+    "Gastroenterology", "Nephrology", "Neurology", "Psychiatry", "Orthopedics", "Ophthalmology",
+    "Obstetrics", "Gynecology"
+
+     # Skeletal System
+    "Osteoporosis", "Arthritis", "Osteoarthritis", "Rheumatoid arthritis", "Gout", "Bone fractures",
+    "Scoliosis", "Kyphosis", "Lordosis", "Osteomyelitis", "Paget's disease of bone", "Bone tumors",
+    
+    # Muscular System
+    "Muscular dystrophy", "Myasthenia gravis", "Muscle strains", "Muscle sprains", "Fibromyalgia",
+    "Compartment syndrome",
+    
+    # Nervous System
+    "Stroke", "Epilepsy", "Multiple sclerosis", "Parkinson's disease", "Alzheimer's disease", "Dementia",
+    "Amyotrophic lateral sclerosis (ALS)", "Migraine", "Neuropathy", "Brain tumors", "Spinal cord injury",
+    
+    # Cardiovascular System
+    "Coronary artery disease", "Myocardial infarction (Heart attack)", "Arrhythmia", "Heart failure",
+    "Hypertension (High blood pressure)", "Peripheral artery disease", "Congenital heart defects",
+    "Atherosclerosis", "Heart valve diseases", "Cardiomyopathy", "Angina", "Deep vein thrombosis (DVT)",
+    
+    # Respiratory System
+    "Asthma", "Chronic obstructive pulmonary disease (COPD)", "Pneumonia", "Bronchitis", "Emphysema",
+    "Lung cancer", "Tuberculosis", "Pulmonary embolism", "Respiratory failure", "Sleep apnea",
+    
+    # Digestive System
+    "Gastroesophageal reflux disease (GERD)", "Peptic ulcer disease", "Inflammatory bowel disease (IBD)",
+    "Crohn's disease", "Ulcerative colitis", "Diverticulitis", "Gallstones", "Pancreatitis", "Liver cirrhosis",
+    "Hepatitis", "Colon cancer", "Appendicitis", "Celiac disease", "Hemorrhoids",
+    
+    # Urinary System
+    "Urinary tract infection (UTI)", "Kidney stones", "Chronic kidney disease", "Acute kidney injury",
+    "Glomerulonephritis", "Polycystic kidney disease", "Interstitial cystitis", "Bladder cancer",
+    
+    # Reproductive System
+    "Prostate cancer", "Testicular cancer", "Ovarian cancer", "Cervical cancer", "Endometriosis",
+    "Polycystic ovary syndrome (PCOS)", "Infertility", "Erectile dysfunction", "Premenstrual syndrome (PMS)",
+    "Menstrual disorders", "Sexually transmitted infections (STIs)", "Human papillomavirus (HPV)",
+    
+    # Endocrine System
+    "Diabetes mellitus (Type 1 and Type 2)", "Thyroid disorders (e.g., Hypothyroidism, Hyperthyroidism)",
+    "Cushing's syndrome", "Addison's disease", "Pituitary tumors", "Adrenal tumors", "Parathyroid disorders",
+    "Polycystic ovary syndrome (PCOS)", "Acromegaly", "Galactorrhea", "Hirsutism",
+    
+    # Lymphatic System and Immune System
+    "Lymphoma", "Leukemia", "Hodgkin's lymphoma", "Non-Hodgkin's lymphoma", "Multiple myeloma",
+    "Lymphedema", "HIV/AIDS", "Autoimmune diseases (e.g., Lupus, Rheumatoid arthritis, Multiple sclerosis)",
+    "Immunodeficiency disorders", "Sepsis", "Septicemia", "Allergies", "Anaphylaxis",
+    
+    # Integumentary System
+    "Acne", "Psoriasis", "Eczema", "Dermatitis", "Melanoma", "Basal cell carcinoma", "Squamous cell carcinoma",
+    "Rosacea", "Vitiligo", "Hives", "Cellulitis", "Warts", "Skin infections",
+    
+    # Other Diseases and Medical Conditions
+    "Obesity", "Malnutrition", "Eating disorders", "Sleep disorders", "Anxiety disorders", "Depressive disorders",
+    "Schizophrenia", "Bipolar disorder", "Substance use disorders", "Addiction", "PTSD (Post-traumatic stress disorder)",
+    "Burns", "Traumatic injuries", "Cancers (Various types)", "Genetic disorders",
+    
+    # Eye and Ear Disorders
+    "Glaucoma", "Cataracts", "Macular degeneration", "Retinal detachment", "Diabetic retinopathy",
+    "Conjunctivitis", "Myopia", "Hyperopia", "Astigmatism", "Presbyopia", "Ear infections", "Hearing loss"
+
+    # Treatments
+    "Chemotherapy", "Radiation therapy", "Surgery", "Medication", "Antibiotics", "Antiviral therapy",
+    "Immunotherapy", "Hormone therapy", "Physical therapy", "Occupational therapy", "Speech therapy",
+    "Psychotherapy", "Behavioral therapy", "Cognitive-behavioral therapy", "Dialectical behavior therapy",
+    "Electroconvulsive therapy (ECT)", "Art therapy", "Music therapy", "Massage therapy", "Chiropractic care",
+    "Acupuncture", "Homeopathy", "Naturopathy", "Ayurveda", "Herbal remedies", "Nutritional therapy",
+    "Dietary supplements", "Functional medicine", "Regenerative medicine", "Stem cell therapy",
+    "Gene therapy", "Precision medicine", "Personalized medicine", "Telemedicine", "Telehealth",
+    "Remote patient monitoring", "Virtual care", "Wearable technology", "Health monitoring devices",
+    "Fitness trackers", "Smartwatches", "Mobile health apps", "mHealth", "Medical devices",
+    "Prosthetics", "Orthotics", "Assistive devices", "Diagnostic tests", "Imaging tests", "Laboratory tests",
+    "Genetic testing", "Biopsy", "Endoscopy", "Colonoscopy", "Laparoscopy", "Electrocardiogram (ECG/EKG)",
+    "Electroencephalogram (EEG)", "Magnetic resonance imaging (MRI)", "Computed tomography (CT scan)",
+    "X-ray", "Ultrasound", "PET scan", "Bone scan", "Blood tests", "Urine tests", "Stool tests",
+    "Pap smear", "Mammogram", "Prostate-specific antigen (PSA) test", "Fecal occult blood test (FOBT)",
+    "Vaccination", "Immunization", "Preventive care", "Health education", "Patient counseling",
+    "Pain management", "Symptom management", "Rehabilitation", "Physical rehabilitation", "Cardiac rehabilitation",
+    "Pulmonary rehabilitation", "Occupational rehabilitation", "Substance abuse rehabilitation",
+    "Cancer rehabilitation", "Respiratory therapy", "Nutritional counseling", "Weight management",
+    "Sleep management", "Stress management", "Palliative care", "Hospice care", "End-of-life care",
+    "Support groups", "Family therapy", "Couple's therapy", "Group therapy", "Medical research",
+    "Clinical trials", "Peer-reviewed journals", "Public health interventions", "Epidemiological studies",
+    "Outbreak response", "Pandemic management", "Contact tracing", "Health policy", "Health insurance",
+    
+    # Medical Jargons
+    "Anatomy", "Physiology", "Pathophysiology", "Pathology", "Pharmacology", "Pharmaceuticals",
+    "Pharmacokinetics", "Pharmacodynamics", "Biochemistry", "Microbiology", "Immunology", "Genetics",
+    "Genomics", "Epigenetics", "Cell biology", "Molecular biology", "Biotechnology", "Bioinformatics",
+    "Medical ethics", "Medical jurisprudence", "Medical terminology", "Medical imaging", "Radiology",
+    "Neuroradiology", "Interventional radiology", "Nuclear medicine", "Diagnostics", "Laboratory medicine",
+    "Clinical chemistry", "Hematology", "Histology", "Cytology", "Serology", "Microscopy", "Electrophysiology",
+    "Pathology", "Anesthesiology", "Surgery", "Oncology", "Cardiology", "Neurology", "Dermatology",
+    "Gastroenterology", "Endocrinology", "Nephrology", "Urology", "Pulmonology", "Rheumatology",
+    "Hematology", "Ophthalmology", "Otolaryngology", "Orthopedics", "Pediatrics", "Geriatrics",
+    "Psychiatry", "Psychology", "Neuropsychology", "Epidemiology", "Public health", "Health promotion",
+    "Health education", "Health administration", "Health informatics", "Telemedicine", "Bioethics",
+    "Nutrition science", "Dietetics", "Sports medicine", "Emergency medicine", "Family medicine",
+    "Internal medicine", "General practice", "Primary care", "Secondary care", "Tertiary care",
+    "Quaternary care", "Nursing", "Nurse practitioner", "Physician assistant", "Medical assistant",
+    "Clinical trials", "Evidence-based medicine", "Alternative medicine", "Complementary medicine",
+    "Integrative medicine", "Holistic medicine", "Traditional medicine", "Regenerative medicine",
+    "Precision medicine", "Personalized medicine", "Pharmacogenomics", "Health technology",
+    "Health informatics", "Digital health", "Medical devices", "Artificial intelligence in healthcare",
+    "Telehealth", "Telemedicine", "Healthcare economics", "Healthcare policy", "Healthcare management",
+    "Medical billing", "Health insurance", "Healthcare financing", "Patient care", "Patient safety",
+    "Quality improvement", "Health disparities", "Health equity", "Population health", "Global health",
+    "Infectious diseases", "Vector-borne diseases", "Zoonotic diseases", "Emerging infectious diseases",
+    "Pandemic preparedness", "Outbreak response", "Public health surveillance", "Health communication",
+    "Health literacy", "Health behavior", "Health psychology", "Health coaching", "Medical documentation",
+    "Medical transcription", "Medical coding", "Electronic health records (EHR)", "Health information management",
+    "Medical data analysis", "Clinical decision support systems", "Medical simulation", "Medical training",
+    "Continuing medical education", "Interprofessional education", "Healthcare accreditation",
+    "Patient advocacy", "Patient-centered care", "Patient engagement", "Shared decision-making",
+    "Medical decision-making", "Medical ethics", "Patient rights", "Informed consent", "Confidentiality",
+    "Medical confidentiality", "Healthcare privacy", "Healthcare ethics", "Biosecurity", "Biomedical research",
+    "Clinical research", "Translational research", "Health research ethics", "Research integrity",
+    "Research misconduct", "Research ethics committees", "Publication ethics", "Peer review", "Research funding",
+    "Research grants", "Research administration", "Health research policy", "Health information exchange",
+    "Health data privacy", "Health data security", "Health data analytics", "Big data in healthcare",
+    "Machine learning in healthcare", "Artificial intelligence in healthcare", "Digital health interventions",
+    "Telehealth technologies", "Telemedicine platforms", "Remote monitoring devices", "mHealth apps",
+    "Health technology assessment", "Healthcare interoperability", "Healthcare standards", "Medical guidelines",
+    "Clinical practice guidelines", "Medical errors", "Medical malpractice", "Medical liability",
+    "Healthcare quality assurance", "Healthcare risk management", "Healthcare compliance", "Healthcare regulations",
+    "Healthcare accreditation", "Healthcare certification", "Healthcare audit", "Healthcare governance",
+    "Healthcare leadership", "Healthcare teamwork", "Healthcare communication", "Medical teamwork",
+    "Interprofessional collaboration", "Interdisciplinary healthcare teams", "Healthcare innovation",
+    "Healthcare entrepreneurship", "Healthcare startups", "Healthcare technology adoption",
+    "Healthcare informatics", "Healthcare transformation", "Healthcare sustainability",
+    "Healthcare delivery models", "Healthcare systems", "Global healthcare systems", "National healthcare systems",
+    "Healthcare disparities", "Healthcare equity", "Healthcare access", "Universal healthcare",
+    "Healthcare reform", "Healthcare finance", "Healthcare economics", "Healthcare insurance",
+    "Healthcare financing", "Healthcare cost management", "Healthcare pricing", "Value-based healthcare",
+    "Accountable care organizations", "Healthcare payment models", "Healthcare reimbursement",
+    "Healthcare purchasing", "Healthcare procurement", "Healthcare supply chain", "Healthcare logistics",
+    "Healthcare facilities", "Healthcare infrastructure", "Healthcare building design",
+    "Healthcare facility management", "Healthcare facility operations", "Healthcare facility safety",
+    "Healthcare facility security", "Healthcare facility planning", "Healthcare facility renovation",
+    "Healthcare equipment", "Medical equipment", "Healthcare technology", "Healthcare IT",
+    "Healthcare cybersecurity", "Healthcare data management", "Healthcare software", "Healthcare apps",
+    "Healthcare analytics", "Healthcare reporting", "Healthcare dashboards", "Healthcare performance",
+    "Healthcare outcomes", "Healthcare improvement", "Healthcare administration", "Healthcare management",
+    "Healthcare leadership", "Healthcare governance", "Healthcare ethics", "Healthcare professionalism",
+    "Healthcare law", "Healthcare regulations", "Healthcare compliance", "Healthcare quality",
+    "Healthcare safety", "Healthcare risk management", "Healthcare audit", "Healthcare assessment",
+    "Healthcare evaluation", "Healthcare auditing", "Healthcare monitoring", "Healthcare inspection",
+    "Healthcare certification", "Healthcare accreditation", "Healthcare accreditation organizations",
+    "Healthcare standards", "Healthcare policy", "Healthcare politics", "Healthcare lobbying",
+    "Healthcare advocacy", "Healthcare diplomacy", "Healthcare negotiations", "Healthcare communication",
+    "Health","Diagnosis", "Treatment", "Medication", "Prescription", "Consultation",
+    "Appointment", "Referral", "Follow-up", "Health", "Condition", "Prognosis",
+    "Care", "Test", "Results", "Pain", "Symptoms", "Disease", "Illness",
+    "Injury", "Infection", "Virus", "Bacteria", "Pathogen", "Fever", "Cough",
+    "Headache", "Nausea", "Vomiting", "Diarrhea", "Fatigue", "Weakness",
+    "Allergy", "Rash", "Swelling", "Inflammation", "Bruise", "Fracture",
+    "Sprain", "Sore throat", "Congestion", "Shortness of breath", "Heartburn",
+    "Stomach ache", "Joint pain", "Back pain", "Neck pain", "Muscle cramp",
+    "Blood pressure", "Heart rate", "Cholesterol", "Blood sugar", "Weight",
+    "Diet", "Exercise", "Fitness", "Physical therapy", "Mental health",
+    "Anxiety", "Depression", "Stress", "Sleep", "Insomnia", "Fatigue",
+    "Addiction", "Recovery", "Wellness", "Nutrition", "Vitamins",
+    "Supplements", "Holistic", "Alternative medicine", "Integrative medicine",
+    "Chronic", "Acute", "Progressive", "Degenerative", "Genetic", "Hereditary",
+    "Genomics", "DNA", "Gene therapy", "Stem cells", "Regenerative medicine",
+    "Precision medicine", "Personalized medicine", "Telemedicine", "Virtual care",
+    "Wearable technology", "Health monitoring", "Health tracking", "Fitness tracker",
+    "Smartwatch", "Mobile health apps", "Telehealth", "Remote patient monitoring",
+    "Healthcare", "Doctor", "Physician", "Nurse", "Specialist", "Surgeon",
+    "Therapist", "Pharmacist", "Hospital", "Clinic", "Emergency room",
+    "Operating room", "ICU", "Intensive care unit", "Primary care",
+    "Secondary care", "Tertiary care", "Pharmacy", "Medication", "Side effects",
+    "Dosage", "Medicine cabinet", "Health insurance", "Coverage", "Premium",
+    "Policy", "Benefits", "Claim", "Medical record", "Electronic health record",
+    "HIPAA", "Patient confidentiality", "Medical research", "Clinical trial",
+    "Medical journal", "Peer-reviewed", "Public health", "Epidemiology",
+    "Outbreak", "Pandemic", "Contagious", "Transmission", "Immunity",
+    "Herd immunity", "Hygiene", "Sanitation", "Vaccine", "Immunization",
+    "Quarantine", "Isolation", "Diagnosis", "Prognosis", "Consultation",
+    "Medical history", "Healthcare provider", "General practitioner",
+    "Hospital", "Clinic", "Emergency room", "Operating room", "ICU",
+    "Intensive care unit", "Primary care", "Secondary care", "Tertiary care",
+    "Quarantine", "Isolation", "Health insurance", "Coverage", "Premium",
+    "Policy", "Benefits", "Claim", "Medical record", "Electronic health record",
+    "HIPAA", "Patient confidentiality", "Medical research", "Clinical trial",
+    "Medical journal", "Peer-reviewed", "Public health", "Epidemiology",
+    "Outbreak", "Pandemic", "Contagious", "Transmission", "Immunity",
+    "Herd immunity", "Hygiene", "Sanitation", "Nutrition", "Diet", "Exercise",
+    "Fitness", "Mental health", "Stress", "Anxiety", "Depression", "Therapy",
+    "Counseling", "Substance abuse", "Addiction", "Rehabilitation",
+    "Well-being", "Holistic health", "Alternative medicine",
+    "Integrative medicine", "Complementary medicine", "Traditional medicine",
+    "Naturopathy", "Acupuncture", "Homeopathy", "Chiropractic", "Osteopathy",
+    "Massage therapy", "Aromatherapy", "Herbal medicine", "Supplements",
+    "Vitamins", "Minerals", "Nutritional supplements", "Dietary supplements",
+    "Nutraceuticals", "Functional foods", "Superfoods", "Organic foods",
+    "Genetic predisposition", "Hereditary", "Genetic testing", "DNA",
+    "Genomics", "Genome sequencing", "Gene therapy", "Stem cells",
+    "Regenerative medicine", "Precision medicine", "Personalized medicine",
+    "Telemedicine", "Virtual care", "Wearable technology", "Health monitoring",
+    "Health tracking", "Fitness tracker", "Smartwatch", "Mobile health apps",
+    "mHealth", "Telehealth", "Remote patient monitoring", "Anemia", "Asthma",
+    "Arthritis", "Diabetes", "Hypertension", "Hyperthyroidism", "Hypothyroidism",
+    "Migraine", "Osteoporosis", "Pneumonia", "Stroke", "Tuberculosis",
+    "Coronary artery disease", "Fibromyalgia", "Chronic obstructive pulmonary disease",
+    "Endometriosis", "Gastroesophageal reflux disease", "Irritable bowel syndrome",
+    "Multiple sclerosis", "Parkinson's disease", "Alzheimer's disease", "Schizophrenia",
+    "Bipolar disorder", "Post-traumatic stress disorder", "Cancer", "Leukemia",
+    "Lymphoma", "Melanoma", "Breast cancer", "Colon cancer", "Lung cancer",
+    "Prostate cancer", "Skin cancer", "Heart attack", "Cardiac arrest",
+    "Arrhythmia", "Congestive heart failure", "Kidney stones", "Urinary tract infection",
+    "Gastroenteritis", "Appendicitis", "Concussion", "Fracture", "Sprain",
+    "Strain", "Pneumothorax", "Hypoglycemia", "Hyperglycemia", "Anaphylaxis",
+    "Sepsis", "Hypotension", "Hypertension", "Pulmonary embolism",
+    "Deep vein thrombosis", "Cirrhosis", "Hepatitis", "Pancreatitis",
+    "Diverticulitis", "Gastritis", "Peptic ulcer disease", "Celiac disease",
+    "Crohn's disease", "Ulcerative colitis", "Gout", "Rheumatoid arthritis",
+    "Lupus", "Psoriasis", "Eczema", "Acne", "Rosacea", "Warts", "Genital herpes",
+    "Gonorrhea", "Syphilis", "Chlamydia", "HIV", "AIDS", "Influenza",
+    "Common cold", "Bronchitis", "Sinusitis", "Tonsillitis", "Pharyngitis",
+    "Otitis media", "Conjunctivitis", "Glaucoma", "Cataracts", "Macular degeneration",
+    "Amblyopia", "Strabismus", "Myopia", "Hyperopia", "Astigmatism", "Presbyopia",
+    "Cataract surgery", "LASIK", "Contact lenses", "Orthokeratology",
+    "Retinal detachment", "Retinopathy", "Macular edema", "Keratoconus",
+    "Uveitis", "Iritis", "Keratitis", "Corneal ulcer", "Conjunctival hemorrhage",
+    "Retinal vein occlusion", "Retinal artery occlusion", "Central retinal vein occlusion",
+    "Central retinal artery occlusion", "Retinal tear", "Retinal detachment",
+    "Macular hole", "Macular pucker", "Epiretinal membrane", "Diabetic retinopathy",
+    "Hypertensive retinopathy", "Retinal degeneration", "Retinitis pigmentosa",
+    "Optic neuritis", "Optic neuropathy", "Ocular migraine", "Ocular histoplasmosis",
+    "Ocular toxoplasmosis", "Ocular syphilis", "Ocular tuberculosis", "Ocular sarcoidosis",
+    "Ocular herpes", "Ocular shingles", "Ocular pemphigoid", "Ocular cicatricial pemphigoid",
+    "Ocular graft-versus-host disease", "Ocular surface disease", "Ocular rosacea",
+    "Ocular allergies", "Ocular surface tumor", "Ocular surface cancer",
+    "Ocular surface melanoma", "Ocular surface lymphoma", "Ocular surface squamous neoplasia",
+    "Ocular surface carcinoma", "Anterior uveitis", "Posterior uveitis", "Intermediate uveitis",
+    "Panuveitis", "Scleritis", "Episcleritis", "Iridocyclitis", "Iriditis", "Choroiditis",
+    "Chorioretinitis", "Pars planitis", "Vogt-Koyanagi-Har"]
 
 
 def checking(query):
     flag = False
     list_of_words = query.split(" ")
     for i in list_of_words:
-        if i.lower() in health_keywords:
-            flag = True
-            break
+        for j in health_keywords:
+            if i in j.lower().split(" "):
+        # if i.lower() in health_keywords:
+                flag = True
+                break
     return flag
-
-
-# if checking("i have an headache"):
-#     print("sucess")
-# else:
-#     print("failed")
-
